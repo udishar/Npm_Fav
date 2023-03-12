@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Roboto+Slab:wght@300;400;600&display=swap");
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  
+
+  height: 78vh;
+}
+
+
+.main {
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgb(31, 30, 30);
+  }
+  .tableDiv{
+   
+    margin-top: 10rem;
+    width:89vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  table{
+    width: 70vw;
+    /* height: 30vh; */
+    margin-right: 10rem;
+    border:2px black solid;
+  }
+  th{
+    border-bottom:1px solid black;
+    border-right: 1px black solid ;
+    height: 2.5rem;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  td{
+    border-bottom: 1px black solid;
+    border-right: 1px black solid ;
+    padding: 0.3rem;
+    font-size: 1.1rem;
+    font-family: "Roboto Slab", serif;
+
+  }
+  .icons{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap:5rem;
+    
+  }
+  .btn1{
+  
+  width: 80vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  }
+  .favBtn{
+    padding:0.3rem;
+    width: 10rem;
+    font-size: 1.2rem;
+    background-color: rgb(173, 4, 4);
+    color: antiquewhite;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+  }
+  .favBtn:hover{
+    transform: scale(1.1);
+  }

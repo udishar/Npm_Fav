@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Roboto+Slab:wght@300;400;600&display=swap");
+
+
+.mainContainer{
+    /* border:3px red solid; */
+    margin-top: 5rem;
+    
+    width: 80vw;
+    margin-left: 10rem;
+}
+.div1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction:column ;
+    gap: 0;
+
+}
+.div1>p{
+    font-size: 1.3rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: rgb(31, 30, 30);
+
+}
+.input{
+    width: 70vw;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    outline: none;
+    font-family: "Roboto Slab", serif;
+    border: 1px gray solid;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.div{
+display: flex;
+gap:0.5rem;
+font-size: 1rem;
+font-family: "Roboto Slab", serif;
+
+padding: 0;
+
+
+}
+.scrollDiv{
+    
+    height: 26vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 72vw;
+   
+}
+.head
+{
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: "Roboto Slab", serif;
+}
+.div2{
+    
+    margin-top: 2rem;
+}
+.paragraph{
+    font-size: 1.2rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    margin-bottom: 0;
+
+}
+.text{
+    width:70vw;
+    height: 20vh;
+}
+.btn{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+    width: 70vw;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.button{
+    font-size: 1.3rem;
+    background-color: rgb(160, 15, 15);
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem;
+    width: 8rem;
+
+  
+}
